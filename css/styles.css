@@ -14,7 +14,7 @@ body {
     font-size: 1.8rem;
     line-height: 1;
     font-weight: 400;
-    color: var(--color-secondary);
+    color: var(--color-primary);
 }
 
 h1,
@@ -38,4 +38,12 @@ h3 {
 
 .copyright {
     font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Mailto Link */
+
+a {
+    text-decoration: none;
+    color: var(--color-primary);
 }
