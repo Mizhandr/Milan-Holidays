@@ -56,3 +56,15 @@ background-repeat: no-repeat;
 width: 1366px;
 margin: 0 auto;
 }
+
+/* Top-block */
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.top-block {
+    display: flex;
+    justify-content: space-between;
+}
