@@ -77,9 +77,11 @@ margin: 0 auto;
 .container {
     width: 1024px;
     margin: 0 auto;
-    
 }
 
+.card-link {
+
+}
 .top-block {
     display: flex;
     justify-content: space-between;
@@ -117,4 +119,52 @@ margin: 0 auto;
     margin: 0 auto;
     justify-content: center;
     width: 1024px;
+}
+
+/* Card */
+ 
+.card {
+    position: relative;
+    width: 300px; 
+}
+
+.image {
+    width: 100%;
+   
+}
+
+.card-header {
+    margin: 2rem 0;
+ }
+
+.orange-bar {
+    display: block;
+    background-color: var(--color-secondary);
+    width: 100%;
+    height: 55px;
+    position: absolute;
+    bottom: 1rem;
+    opacity: 0;
+    transition: transform 0.25s;
+}
+
+.orange-bar:hover {
+    transform: translateY(-100%);
+    opacity: 1;
+}
+
+.from {
+    font-size: 1rem;
+    padding-left: 1.6rem;
+}
+
+.price {
+    font-size: 2rem;
+    padding-left: 1.6rem;
+    padding-right: 13rem;
+    padding-bottom: 6rem;
+}
+
+.details {
+    font-size: 1.4rem;
 }
