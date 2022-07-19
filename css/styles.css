@@ -47,3 +47,12 @@ a {
     text-decoration: none;
     color: var(--color-primary);
 }
+
+/* Section */
+
+section {
+background: url(/images/background.png);
+background-repeat: no-repeat;
+width: 1366px;
+margin: 0 auto;
+}
