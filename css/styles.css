@@ -26,6 +26,7 @@ line-height: 0.3;
 
 h1 {
     font-size: 2.8rem;
+    margin-top: 5rem;
 }
 
 h2 {
@@ -84,3 +85,18 @@ margin: 0 auto;
     text-align: end;
 }
 
+/* Logo */
+
+.logo-block {
+    display: flex;
+
+}
+
+.logo {
+    display: inline;
+    width: 53px;
+    height: 47px;
+    fill: var(--color-primary);
+    margin-top: 3.9rem;
+    padding-right: 5px;
+}
