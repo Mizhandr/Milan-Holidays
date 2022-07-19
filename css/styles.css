@@ -41,11 +41,24 @@ h3 {
     text-align: center;
 }
 
-/* Mailto Link */
+/* Contacts */
 
 a {
     text-decoration: none;
     color: var(--color-primary);
+}
+
+a:hover {
+    color: var(--color-secondary);
+}
+
+.contacts {
+    list-style: none;
+    margin-top: 4.5rem;
+}
+
+.contacts-item {
+    margin-bottom: 1.8rem;
 }
 
 /* Section */
@@ -62,9 +75,12 @@ margin: 0 auto;
 .container {
     width: 1024px;
     margin: 0 auto;
+    
 }
 
 .top-block {
     display: flex;
     justify-content: space-between;
+    text-align: end;
 }
+
