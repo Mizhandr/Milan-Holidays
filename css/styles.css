@@ -41,6 +41,7 @@ h3 {
 .copyright {
     font-size: 1.2rem;
     text-align: center;
+    padding-bottom: 1.5rem;
 }
 
 /* Contacts */
@@ -95,10 +96,6 @@ margin: 0 auto;
 
 }
 
-.logo-block:hover {
-    color: var(--color-secondary);
-}
-
 .logo {
     display: inline;
     width: 53px;
@@ -106,6 +103,14 @@ margin: 0 auto;
     fill: var(--color-primary);
     margin-top: 3.9rem;
     padding-right: 5px;
+}
+
+.logo-block:hover > .logo {
+    fill: var(--color-secondary);
+}
+
+.logo-block:hover > .logo-text {
+    color: var(--color-secondary);
 }
 
 /* Grid */
@@ -130,7 +135,6 @@ margin: 0 auto;
 
 .image {
     width: 100%;
-   
 }
 
 .card-header {
@@ -145,13 +149,13 @@ margin: 0 auto;
     position: absolute;
     bottom: 1rem;
     opacity: 0;
-    transition: transform 0.25s;
+    transition: transform 0.20s;
 }
 
 .orange-bar:hover {
     transform: translateY(-100%);
     opacity: 1;
-}
+ } 
 
 .from {
     font-size: 1rem;
