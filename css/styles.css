@@ -69,7 +69,9 @@ a:hover {
 section {
 background: url(/images/background.png);
 background-repeat: no-repeat;
-width: 1366px;
+background-size: cover;
+width: 100vw;
+height: 100vh;
 margin: 0 auto;
 }
 
@@ -80,9 +82,6 @@ margin: 0 auto;
     margin: 0 auto;
 }
 
-.card-link {
-
-}
 .top-block {
     display: flex;
     justify-content: space-between;
@@ -93,7 +92,6 @@ margin: 0 auto;
 
 .logo-block {
     display: flex;
-
 }
 
 .logo {
@@ -130,11 +128,12 @@ margin: 0 auto;
  
 .card {
     position: relative;
-    width: 300px; 
+    width: 300px;
 }
 
 .image {
     width: 100%;
+    object-fit: fill;
     box-sizing: border-box;
     border: 2px solid;
     border-image-source: linear-gradient(0deg,#F26522, #fff);
