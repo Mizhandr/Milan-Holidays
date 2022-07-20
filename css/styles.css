@@ -135,6 +135,10 @@ margin: 0 auto;
 
 .image {
     width: 100%;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-image-source: linear-gradient(0deg,#F26522, #fff);
+    border-image-slice: 1;
 }
 
 .card-header {
@@ -149,13 +153,21 @@ margin: 0 auto;
     position: absolute;
     bottom: 1rem;
     opacity: 0;
-    transition: transform 0.20s;
+    transition: transform 0.1s;
 }
 
-.orange-bar:hover {
+.card:hover .orange-bar {
     transform: translateY(-100%);
     opacity: 1;
  } 
+
+.card:hover .bar-text {
+    color: var(--color-primary);
+}
+
+.card:hover .card-header {
+    color: var(--color-secondary);
+}
 
 .from {
     font-size: 1rem;
