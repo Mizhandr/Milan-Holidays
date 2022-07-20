@@ -62,7 +62,7 @@ a:hover {
 
 @media screen and (min-width: 768px) {
     .contacts {
-        margin-top: 4.5rem;
+    margin-top: 4.5rem;
 }
 }
 
@@ -161,9 +161,9 @@ margin: 0 auto;
 
 @media screen and (min-width: 768px) {
     .grid {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        width: 768px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 768px;
     }
     }
 
@@ -171,7 +171,7 @@ margin: 0 auto;
 .grid {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    width: 1024px;
+    width: 1024px; 
 }
 }
 
@@ -183,8 +183,8 @@ margin: 0 auto;
 }
 
 .image {
-    width: 100%;
-    object-fit: fill;
+    width: 300px;
+    height: 220px;
     box-sizing: border-box;
     border: 2px solid;
     border-image-source: linear-gradient(0deg,#F26522, #fff);
@@ -201,7 +201,7 @@ margin: 0 auto;
     width: 100%;
     height: 55px;
     position: absolute;
-    bottom: 1rem;
+    bottom: .8rem;
     opacity: 0;
     transition: transform 0.1s;
 }
@@ -233,4 +233,35 @@ margin: 0 auto;
 
 .details {
     font-size: 1.4rem;
+}
+
+/* Card Images */
+
+.card-images {
+    width: 300px;
+    height: 220px;
+} 
+
+.gallery {
+background: url(/images/gallery.png);
+}
+
+.architecture {
+background: url(/images/architecture.png);
+}    
+
+.duomo {
+background: url(/images/duomo1.png);
+}
+
+.food {
+background: url(/images/food.png);
+}
+
+.nightclub {
+background: url(/images/nightclub.png);
+}
+
+.walking-tours {
+background: url(/images/walktours.png);
 }
